@@ -1,15 +1,7 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
+  --section-background-color: linear-gradient(to bottom left, rgba(17, 16, 16, 0.582), rgba(12, 8, 24, 0.904));
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
+  --image-gradient: linear-gradient(to bottom left, rgba(17, 16, 16, 0.678), rgba(12, 10, 22, 0.863));
 
   --imp-text-color: #c770f0;
 }
@@ -188,7 +180,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a::after {
-  content: "";
+  content: '';
   position: relative;
   display: block;
   height: 5px;
@@ -365,7 +357,7 @@ button:focus {
 }
 
 .home-social-icons::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -675,7 +667,7 @@ button:focus {
 }
 
 .resume .resume-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
@@ -741,4 +733,25 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.react-calendar-heatmap .color-scale-1 {
+  fill: #934cce1a; /* 10% opacity */
+}
+.react-calendar-heatmap .color-scale-2 {
+  fill: #934cce5e; /* 37% opacity (your original) */
+}
+.react-calendar-heatmap .color-scale-3 {
+  fill: #934cce99; /* 60% opacity */
+}
+.react-calendar-heatmap .color-scale-4 {
+  fill: #934cce; /* 100% opacity */
+}
+
+.react-calendar-heatmap text {
+  font-size: 8px;
+  fill: #aaa;
+}
+rect {
+  border-radius: 10px !important;
 }

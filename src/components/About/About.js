@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
+import GithubCalendar from "./Github";
+import TechStack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
@@ -38,14 +38,14 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />
+        <TechStack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
 
-        <Github />
+        <GithubCalendar />
       </Container>
     </Container>
   );

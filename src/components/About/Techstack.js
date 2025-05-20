@@ -8,43 +8,43 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
+  DiSass,
+  DiJqueryLogo
 } from "react-icons/di";
+import { TbBrandTypescript, TbBrandCSharp } from "react-icons/tb";
 import {
-  SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiAngular,
+  SiJquery
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
-
-function Techstack() {
+function TechStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <TbBrandTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiAngular />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJquery />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -53,19 +53,20 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <CgCPlusPlus />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandCSharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSass />
+      </Col>
+
     </Row>
   );
 }
 
-export default Techstack;
+export default TechStack;
