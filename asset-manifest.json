@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Ahmad-Shobasi-Personal-Website/static/css/main.382496e7.css",
+    "main.js": "/Ahmad-Shobasi-Personal-Website/static/js/main.49b99326.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Ahmad-Shobasi-Personal-Website/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Ahmad-Shobasi-Personal-Website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cashbox.png": "/Ahmad-Shobasi-Personal-Website/static/media/cashbox.7ff3c9e465accb44d797.png",
+    "static/media/SLS.png": "/Ahmad-Shobasi-Personal-Website/static/media/SLS.3459140cfa83ea1020b3.png",
+    "static/media/avatar.png": "/Ahmad-Shobasi-Personal-Website/static/media/avatar.ae969a2cd3352f054f1b.png",
+    "static/media/tasky.png": "/Ahmad-Shobasi-Personal-Website/static/media/tasky.a0b429f465f92e0d8d01.png",
+    "static/media/Admin-Dashboard.png": "/Ahmad-Shobasi-Personal-Website/static/media/Admin-Dashboard.ff7c084ae5961a43206a.png",
+    "static/media/home-main.svg": "/Ahmad-Shobasi-Personal-Website/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/Ahmad-Shobasi-Personal-Website/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Ahmad Shobasi resume.pdf": "/Ahmad-Shobasi-Personal-Website/static/media/Ahmad Shobasi resume.193c0814b359945174f4.pdf",
+    "static/media/home-bg.jpg": "/Ahmad-Shobasi-Personal-Website/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/Ahmad-Shobasi-Personal-Website/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Ahmad-Shobasi-Personal-Website/index.html",
+    "main.382496e7.css.map": "/Ahmad-Shobasi-Personal-Website/static/css/main.382496e7.css.map",
+    "main.49b99326.js.map": "/Ahmad-Shobasi-Personal-Website/static/js/main.49b99326.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Ahmad-Shobasi-Personal-Website/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Ahmad-Shobasi-Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.382496e7.css",
+    "static/js/main.49b99326.js"
+  ]
+}
