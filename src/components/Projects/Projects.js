@@ -1,11 +1,12 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import ProjectCard from './ProjectCards';
-import Particle from '../Particle';
-import cash from '../../Assets/Projects/cashbox.png';
-import tasky from '../../Assets/Projects/tasky.png';
-import sls from '../../Assets/Projects/SLS.png';
-import AD from '../../Assets/Projects/Admin-Dashboard.png';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
+import cash from "../../Assets/Projects/cashbox.png";
+import tasky from "../../Assets/Projects/tasky.png";
+import sls from "../../Assets/Projects/SLS.png";
+import AD from "../../Assets/Projects/Admin-Dashboard.png";
+import { SocialLinks } from "../../constants";
 
 function Projects() {
   return (
@@ -15,8 +16,28 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: 'white' }}>Here are a few projects I've worked on recently.</p>
-        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p>
+        <p style={{ color: "white" }}>
+          Feel free to check my personal projects on my{" "}
+          <span style={{ position: "relative", zIndex: 100 }}>
+            {" "}
+            <a
+              href={SocialLinks.gitHub}
+              target="_blank"
+              className="purple"
+              style={{ textDecoration: "none", cursor: "pointer" }}
+            >
+              {" "}
+              Github account.
+            </a>
+          </span>
+        </p>
+        <p style={{ color: "white" }}>
+          Or you just can contact me for more details 😊.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tasky}
