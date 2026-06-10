@@ -1,70 +1,43 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { DiReact, DiMongodb, DiPython, DiGit, DiSass } from "react-icons/di";
+import { TbBrandTypescript, TbBrandCSharp, TbSql } from "react-icons/tb";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiSass,
-  DiJqueryLogo
-} from "react-icons/di";
-import { TbBrandTypescript, TbBrandCSharp } from "react-icons/tb";
-import {
-  SiFirebase,
-  SiNextdotjs,
   SiAngular,
-  SiJquery
+  SiJquery,
+  SiExpress,
+  SiNestjs,
+  SiDotnet,
+  SiPostgresql,
 } from "react-icons/si";
+
+const StackIcons = [
+  { id: 1, icon: TbBrandTypescript, title: "TypeScript" },
+  { id: 2, icon: SiJquery, title: "JQuery" },
+  { id: 3, icon: CgCPlusPlus, title: "C++" },
+  { id: 4, icon: TbBrandCSharp, title: "C#" },
+  { id: 5, icon: DiPython, title: "Python" },
+  { id: 6, icon: SiAngular, title: "AngularJs" },
+  { id: 7, icon: DiReact, title: "ReactJs" },
+  { id: 8, icon: SiExpress, title: "ExpressJs" },
+  { id: 9, icon: SiNestjs, title: "NestJs" },
+  { id: 10, icon: SiDotnet, title: ".Net core" },
+  { id: 11, icon: DiMongodb, title: "MongoDB" },
+  { id: 12, icon: TbSql, title: "SQL" },
+  { id: 13, icon: SiPostgresql, title: "Postgresql" },
+  { id: 14, icon: DiGit, title: "Git Technologies" },
+  { id: 15, icon: DiSass, title: "Sass styling" },
+];
+
 function TechStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAngular />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJquery />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandCSharp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiSass />
-      </Col>
-
+      {StackIcons.map(({ id, icon: IconComponent, title }) => (
+        <Col key={id} xs={4} md={2} className="tech-icons" title={title}>
+          <IconComponent />
+        </Col>
+      ))}
     </Row>
   );
 }
