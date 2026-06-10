@@ -11,9 +11,12 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ahmad Shobasi </span>
             from <span className="purple"> Hama, Syria</span>
             <br />
-            I am currently employed as a web apps developer at BA-Tech.
-            <br />
-            I have completed Bachelor in mechatronics engineering, also I'm currently studying computer science bachelor at Syrian virtual university.
+            I am currently working as a freelancer fullstack developer.
+            <br />I was employed as web apps developer at{" "}
+            <span className="purple">BA-Tech company | Damascus</span>
+            <br />I have studied Bachelor in mechatronics engineering, also I'm
+            currently studying computer science bachelor at{" "}
+            <span className="purple">Syrian virtual university.</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -29,11 +32,6 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Ahmad-Sh</footer>
         </blockquote>
       </Card.Body>
     </Card>
