@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/Ahmad-Shobasi-Personal-website/static/css/main.4a349f69.css",
-    "main.js": "/Ahmad-Shobasi-Personal-website/static/js/main.e3ecece8.js",
+    "main.js": "/Ahmad-Shobasi-Personal-website/static/js/main.b3935a43.js",
     "static/js/415.4d6acbeb.chunk.js": "/Ahmad-Shobasi-Personal-website/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Ahmad-Shobasi-Personal-website/static/js/787.1ed0c42c.chunk.js",
     "static/media/cashbox.png": "/Ahmad-Shobasi-Personal-website/static/media/cashbox.7ff3c9e465accb44d797.png",
     "static/media/SLS.png": "/Ahmad-Shobasi-Personal-website/static/media/SLS.3459140cfa83ea1020b3.png",
-    "static/media/avatar.png": "/Ahmad-Shobasi-Personal-website/static/media/avatar.ae969a2cd3352f054f1b.png",
     "static/media/tasky.png": "/Ahmad-Shobasi-Personal-website/static/media/tasky.a0b429f465f92e0d8d01.png",
     "static/media/Admin-Dashboard.png": "/Ahmad-Shobasi-Personal-website/static/media/Admin-Dashboard.ff7c084ae5961a43206a.png",
+    "static/media/Ahmad_Shobasi_Resume.pdf": "/Ahmad-Shobasi-Personal-website/static/media/Ahmad_Shobasi_Resume.e0fdee29ae150d212857.pdf",
     "static/media/home-main.svg": "/Ahmad-Shobasi-Personal-website/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/Ahmad-Shobasi-Personal-website/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/Ahmad Shobasi resume.pdf": "/Ahmad-Shobasi-Personal-website/static/media/Ahmad Shobasi resume.193c0814b359945174f4.pdf",
+    "static/media/Avatar.jpg": "/Ahmad-Shobasi-Personal-website/static/media/Avatar.1a0d000c4719d76179b0.jpg",
     "static/media/home-bg.jpg": "/Ahmad-Shobasi-Personal-website/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/Ahmad-Shobasi-Personal-website/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Ahmad-Shobasi-Personal-website/index.html",
     "main.4a349f69.css.map": "/Ahmad-Shobasi-Personal-website/static/css/main.4a349f69.css.map",
-    "main.e3ecece8.js.map": "/Ahmad-Shobasi-Personal-website/static/js/main.e3ecece8.js.map",
+    "main.b3935a43.js.map": "/Ahmad-Shobasi-Personal-website/static/js/main.b3935a43.js.map",
     "415.4d6acbeb.chunk.js.map": "/Ahmad-Shobasi-Personal-website/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Ahmad-Shobasi-Personal-website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a349f69.css",
-    "static/js/main.e3ecece8.js"
+    "static/js/main.b3935a43.js"
   ]
 }
